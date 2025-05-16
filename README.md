@@ -49,10 +49,6 @@
 
 ###
 
-<img align="left" height="208" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMml1bHcxOTY5Nm1rd2o1cm1vZmo2M3h2ZzFzOHYyM2dpa3p5OWdmdCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/S9d8XB557e8phGLBVS/giphy.gif"  />
-
-###
-
 <img src="https://raw.githubusercontent.com/DevOliveir4/DevOliveir4/output/snake.svg" alt="Snake animation" />
 
 ###
