@@ -4,6 +4,7 @@
 @import url(header.css);
 @import url(home.css);
 @import url(banner.css);
+@import url(projetos.css);
 
 :root {
     --BG-dark: #0D0D0D;

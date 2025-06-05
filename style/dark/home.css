@@ -10,10 +10,6 @@
         
         & h1 {
             font: var(--h1);
-            
-            & span {
-                color: white;
-            }
         }
 
         & p {
