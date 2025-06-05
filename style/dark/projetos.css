@@ -1,6 +1,7 @@
 .projetos {
     margin: 100px auto;
     
+    
     & h2 {
         font: var(--h2);
         margin-bottom: 100px;

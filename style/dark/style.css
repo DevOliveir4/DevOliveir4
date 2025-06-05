@@ -5,6 +5,7 @@
 @import url(home.css);
 @import url(banner.css);
 @import url(projetos.css);
+@import url(stack-formacao.css);
 
 :root {
     --BG-dark: #0D0D0D;
