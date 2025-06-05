@@ -1,0 +1,105 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(24, 24, 29, 0.3);
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 18px 16px;
+    border-radius: 10px;
+    position: absolute;
+    top: 24px;
+    left: 50%;
+    transform: translate(-50%);
+
+    & .lft {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        & .line {
+            height: 20px;
+            width: 1px;
+            background: var(--dark-gray);
+        }
+
+        & ul {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+
+            & li {
+                font: var(--h5);
+                color: var(--ligth-gray);
+
+                & a {
+                    position: relative;
+                }
+
+                & a::before {
+                    content: "";
+                    position: absolute;
+                    bottom: -5px;
+                    left: 0;
+                    width: 0%;
+                    height: 2px;
+                    background: var(--ligth-gray);
+                    transition: all .5s ease;
+                }
+
+                & a:hover::before {
+                    width: 100%;
+                }
+
+                & i {
+                    font-size: 1.5rem;
+                    color: var(--ligth-gray);
+                    cursor: pointer;
+                    transition: all 0.5s ;
+                }
+            }
+        }
+    }
+
+    & .rgt {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        & .line {
+            height: 20px;
+            width: 1px;
+            background: var(--dark-gray);
+        }
+
+        & ul {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            & li {
+                font: var(--h5);
+                color: var(--ligth-gray);
+
+
+
+                & i {
+                    font-size: 1.5rem;
+                    color: var(--ligth-gray);
+                    cursor: pointer;
+                    transition: all 0.5s ;
+                }
+            }
+
+            & .tema {
+
+                & i:hover {
+                    text-shadow: 
+                    0 0 6px rgba(255, 255, 255, 0.6),
+                    0 0 12px rgba(255, 255, 255, 0.4);
+                }
+            }
+        }
+    }
+}
