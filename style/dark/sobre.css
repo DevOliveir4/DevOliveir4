@@ -1,11 +1,11 @@
-.home {
+.sobre {
     height: 100vh;
     display: flex;
     padding: 100px 48px;
     align-items: center;
     
 
-    & .home-content {
+    & .sobre-content {
         display: flex;
         flex-direction: column;
         gap: 32px;
@@ -18,7 +18,7 @@
             font: var(--tM1);
         }
 
-        & .home-buttons {
+        & .sobre-buttons {
             display: flex;
             gap: 16px;
 
