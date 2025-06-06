@@ -2,8 +2,7 @@ const temaBtn = document.querySelector('.tema');
 const body = document.body;
 const logo = document.getElementById('logo');
 const logoFooter = document.getElementById('logo-footer');
-const temaIcone = temaBtn.querySelector('i'); // pega o <i> dentro do botão
-
+const temaIcone = temaBtn.querySelector('i'); 
 temaBtn.addEventListener('click', () => {
 
     body.classList.toggle('light');
