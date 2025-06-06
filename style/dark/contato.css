@@ -1,0 +1,39 @@
+.contato {
+    padding: 100px 48px 100px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+    & .contato-content {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 55%;
+
+        & h2 {
+        font: var(--h2);
+        }
+
+        & p {
+            font: var(--tR1);
+            color: var(--medium-gray);
+        }
+    }
+    
+    & .ctt {
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    & .ctt:hover {
+        scale: 1.05;
+    }
+}
+
+
+
+
+

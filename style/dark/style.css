@@ -6,13 +6,16 @@
 @import url(banner.css);
 @import url(projetos.css);
 @import url(stack-formacao.css);
+@import url(contato.css);
+@import url(footer.css);
 
 :root {
     --BG-dark: #0D0D0D;
     --onyx: #181818;
     --card: #151515;
-    --dark-gradiente: #1A1A1A 0%, #131313 100%;
+    --dark-gradiente: linear-gradient(180deg, #1A1A1A 0%, #131313 100%);
     --dark-gray: #808080;
+    --medium-gray: #808080;
     --ligth-gray: #C5C5C5;
 
     --h1: 800 8rem/0.75 inter;
@@ -29,5 +32,5 @@
 
     --tR1: 400 1.25rem inter;
     --tR2: 400 1rem inter;
-    --tR3: 400 1rem inter;
+    --tR3: 400 0.875rem inter;
 }

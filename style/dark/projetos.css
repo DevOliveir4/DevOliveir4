@@ -1,6 +1,5 @@
 .projetos {
-    margin: 100px auto;
-    
+    padding: 100px 48px 0 48px;
     
     & h2 {
         font: var(--h2);
