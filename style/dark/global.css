@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0;
     box-sizing: border-box;
+    transition: color .3s ease, background .4s ease, border .4s ease;
 }
 
 .light {

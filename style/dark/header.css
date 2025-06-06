@@ -60,6 +60,7 @@ header {
     align-items: center;
     justify-content: space-between;
     background: rgb(24, 24, 29, 0.3);
+    border: 1px solid rgba(24, 24, 29, 0) ;
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
@@ -151,6 +152,9 @@ header {
 
             & .tema {
                 width: 24px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
 
 
                 & i:hover {
