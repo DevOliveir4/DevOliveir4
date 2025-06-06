@@ -1,3 +1,51 @@
+body.light {
+    .stack-formacao {
+
+        & .stack {
+            
+            & .stack-card {
+                background: var(--medium-gray);
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+                & .stack-card-content {
+
+                    & h3 {
+                    color: var(--onyx);
+                    }
+                }
+            }
+
+            & .vm {
+
+                & a {
+                    color: white;
+                }
+            }
+        }
+
+        & a {
+
+            & .formacao {
+
+                & .formacao-card {
+                    background: var(--medium-gray);
+                    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+
+                    & ul {
+
+                        & li {
+
+                            & p:nth-child(1) {
+                                color: var(--onyx);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 .stack-formacao {
     padding: 100px 48px 100px 48px;
     display: flex;
@@ -52,10 +100,11 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            border-radius: 18px;
             
 
             &:hover {
-                scale: 1.05;
+                scale: 1.009;
             }
 
             & a {
@@ -99,6 +148,11 @@
                 position: relative;
                 overflow: hidden;
                 height: 100%;
+                transition: scale .4s ease;
+
+                &:hover {
+                scale: 1.009;
+                }
 
                 & h3 {
                     font: var(--h3);
@@ -139,6 +193,7 @@
                 }
 
                 & img {
+                    width: 50%;
                     position: absolute;
                     bottom: 0px;
                 }

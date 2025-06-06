@@ -1,3 +1,60 @@
+body.light {
+
+    header {
+        background: rgba(255, 255, 255, 0.3);
+        border: 1px solid white;
+
+        & .lft {
+
+            & .line {
+                background: var(--onyx);
+            }
+
+            & ul {
+
+                & li {
+                    color: var(--onyx);
+
+                    & a::before {
+                        background: var(--onyx);
+                    }
+                }
+            }
+        }
+
+        & .rgt {
+
+            & .line {
+                color: var(--onyx);
+            }
+
+            & ul {
+
+                & li {
+                    color: var(--ligth-gray);
+
+                    & i {
+                        color: rgb(24, 24, 24, .5);
+
+                        &:hover {
+                            color: var(--onyx);
+                        }
+                    }
+                }
+
+                & .tema {
+
+                    & i:hover {
+                        text-shadow: 
+                        0 0 24px  rgba(0, 0, 0, 0.6),
+                        0 0 12px rgba(0, 0, 0, 0.4);
+                    }
+                }
+            }
+        }
+    }
+}
+
 header {
     display: flex;
     align-items: center;
@@ -93,6 +150,8 @@ header {
             }
 
             & .tema {
+                width: 24px;
+
 
                 & i:hover {
                     text-shadow: 
@@ -103,3 +162,4 @@ header {
         }
     }
 }
+

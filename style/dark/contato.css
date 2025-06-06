@@ -1,3 +1,15 @@
+body.light {
+    .contato {
+
+        & .contato-content {
+
+            & p {
+                color: var(--dark-gray);
+            }
+        }
+    }
+}
+
 .contato {
     padding: 100px 48px 100px 48px;
     display: flex;
@@ -17,7 +29,7 @@
 
         & p {
             font: var(--tR1);
-            color: var(--medium-gray);
+            color: var(--light-gray);
         }
     }
     
@@ -29,7 +41,7 @@
     }
 
     & .ctt:hover {
-        scale: 1.05;
+        scale: 1.02;
     }
 }
 

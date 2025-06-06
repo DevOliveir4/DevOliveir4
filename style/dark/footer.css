@@ -1,3 +1,35 @@
+body.light {
+
+    footer {
+
+        & .lft {
+
+            & p {
+                color: var(--onyx);
+            }
+        }
+
+        & p {
+            color: var(--onyx);
+        }
+
+        & .rgt {
+
+            & ul {
+
+                & li {
+                    color: var(--onyx);
+                }
+
+                & li:nth-child(1) {
+                    color: var(--onyx);
+                }
+            }
+        }
+        
+    }
+}
+
 footer {
     padding: 100px 48px 48px 48px;
     display: flex;
@@ -21,6 +53,8 @@ footer {
         display: flex;
         align-items: end; 
         font: var(--tR3);
+        font-style: italic;
+        color: var(--ligth-gray);
     }
 
     & .rgt {

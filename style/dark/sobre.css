@@ -1,3 +1,19 @@
+body.light {
+    
+    .sobre {
+
+        & .sobre-content {
+
+            & .sobre-buttons {
+
+                & a:nth-child(2):hover {
+                    color: var(--onyx);
+                }
+            }
+        }
+    }
+}
+
 .sobre {
     height: 100vh;
     display: flex;
@@ -34,7 +50,7 @@
             & a:nth-child(1) {
 
                 &:hover {
-                    scale: 1.05;
+                    scale: 1.02;
                 }
             }
 
