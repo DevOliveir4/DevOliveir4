@@ -82,7 +82,7 @@ body.light {
                 }
 
                 & p {
-                    font: var(tR2);
+                    font: var(--tR2);
                     margin-bottom: 40px;
                 }
             }
