@@ -15,7 +15,7 @@ body.light {
 }
 
 .sobre {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     padding: 100px 48px;
     align-items: center;
@@ -64,6 +64,7 @@ body.light {
 @media (max-width: 1128px) {
     .sobre {
         flex-direction: column-reverse;
+        justify-content: center;
     }
 
 }
