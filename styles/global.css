@@ -59,6 +59,17 @@ span {
     transition: scale 0.4s ease, color 0.3s ease;
 }
 
+@media (max-width: 816px) {
+    body {
+        font-family: inter;
+        background: url('../../Assets/img/Header-Gradient-mobile.svg') top center no-repeat,
+        url('../../Assets/img/Footer-Gradient-mobile.svg') bottom center no-repeat, var(--BG-dark);
+        background-size: 100% auto, 100% auto;
+        background-attachment: scroll;
+        color: var(--dark-gray);
+    }
+}
+
 
 @media (max-width: 440px) {
     html {
