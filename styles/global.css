@@ -6,19 +6,14 @@
 }
 
 .light {
-    font-family: inter;
     background: url('../../Assets/img/Header-Gradient.svg') top center no-repeat,
     url('../../Assets/img/Footer-Gradient.svg') bottom center no-repeat, var(--BG-ligth);
-    background-size: 100% auto, 100% auto;
-    background-attachment: scroll;
     color: var(--dark-gray);
 
     & span {
     color: var(--onyx);
     }
 }
-
-
 
 body {
     font-family: inter;
@@ -29,9 +24,16 @@ body {
     color: var(--dark-gray);
 }
 
+
+
+.line {
+    height: 20px;
+    width: 1px;
+    background: var(--dark-gray);
+}
+
 .conteiner {
     max-width: 1440px;
-    padding-inline: 48px;
     margin: 0px auto;
 }
 
@@ -40,8 +42,9 @@ a {
     color: inherit;
 }
 
-ul {
+ul, li {
     list-style: none;
+
 }
 
 span {
@@ -54,4 +57,22 @@ span {
     border-radius: 9px;
     color: white;
     transition: scale 0.4s ease, color 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+    body {
+        font-family: inter;
+        background: url('../../Assets/img/Header-Gradient.svg') top center no-repeat,
+        url('../../Assets/img/Footer-Gradient.svg') bottom center no-repeat, var(--BG-dark);
+        background-size: 300% auto, 300% auto;
+        background-attachment: scroll;
+        color: var(--dark-gray);
+    }
+}
+
+
+@media (max-width: 440px) {
+    html {
+        font-size: 70%;
+    }
 }

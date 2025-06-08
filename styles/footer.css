@@ -31,7 +31,7 @@ body.light {
 }
 
 footer {
-    padding: 100px 48px 48px 48px;
+    padding: 100px 48px;
     display: flex;
     justify-content: space-between;
 
@@ -39,6 +39,7 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        gap: 16px;
 
         & img {
             width: 128px;
@@ -59,7 +60,7 @@ footer {
 
     & .rgt {
         display: flex;
-        gap: 64px;
+        gap: 5vw;
 
         & ul {
             display: flex;
@@ -76,6 +77,25 @@ footer {
                 margin-bottom: 16px;
             }
         }
+    } 
+}
+
+@media (max-width: 864px) {
+    footer {
+        padding: 50px 12px 124px ;
+        flex-direction: column;
+        gap: 32px;
+
+        & p {
+            order: 3;
+        }
+
+        & .rgt {
+            justify-content: space-between;
+
+            & ul {
+                width: 100%;
+            }
+        } 
     }
-    
 }

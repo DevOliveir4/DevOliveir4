@@ -120,13 +120,63 @@ body.light {
             margin: 0 auto 100px auto;
             width: 100%;
             max-width: 824px;
-            height: 864px;
+            height: 724px;
 
             & .mockup {
-                margin-top: 15px;
-                width: 100%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 70%;
             }   
         }   
     }
-}       
+}  
+
+@media (max-width: 872px) {
+    .projetos {
+
+        & .pjt-card {
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 50px 50px 30px;
+            margin: 0 auto 100px auto;
+            width: 100%;
+            max-width: 824px;
+            height: min-content;
+
+            & .mockup {
+                left: 50%;
+                transform: translateX(-50%);
+                width: 70%;
+            }   
+        }   
+    }
+}
+
+@media (max-width: 675px) {
+    .projetos {
+        padding: 50px 12px 50px;
+
+            & h2 {
+                margin-bottom: 32px;
+            }
+
+        & .pjt-card {
+
+            & .mockup {
+                display: none;
+            }   
+        }   
+    }
+}
+
+
+
+@media (max-width: 390px) {
+    .projetos {
+
+        & .pjt-card {
+            padding: 25px 25px 30px; 
+        }   
+    }
+}
 

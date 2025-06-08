@@ -15,13 +15,16 @@ body.light {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 50px;
+    
+    
 
     & .contato-content {
         display: flex;
         flex-direction: column;
+        width: 70%;
         gap: 8px;
-        width: 55%;
+        
 
         & h2 {
         font: var(--h2);
@@ -34,6 +37,7 @@ body.light {
     }
     
     & .ctt {
+        width: 200px;
         padding: 16px;
         display: flex;
         align-items: center;
@@ -44,6 +48,100 @@ body.light {
         scale: 1.02;
     }
 }
+
+@media (max-width: 1128px) {
+    .contato {
+        padding: 100px 48px 100px 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        
+        
+
+        & .contato-content {
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            gap: 8px;
+            
+
+            & h2 {
+            font: var(--h2);
+            }
+
+            & p {
+                font: var(--tR1);
+                color: var(--light-gray);
+            }
+        }
+        
+        & .ctt {
+            width: 200px;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        & .ctt:hover {
+            scale: 1.02;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    & .contato {
+        padding: 100px 48px 100px 48px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        
+        
+
+        & .contato-content {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 8px;
+            
+
+            & h2 {
+            font: var(--h2);
+            }
+
+            & p {
+                font: var(--tR1);
+                color: var(--light-gray);
+            }
+        }
+        
+        & .ctt {
+            width: 200px;
+            padding: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        & .ctt:hover {
+            scale: 1.02;
+        }
+    }
+}   
+@media (max-width: 675px) { 
+    .contato {
+        padding: 50px 12px 50px;
+        gap: 25px;
+
+        & .contato-content {
+            text-align: center;
+        }
+    }
+} 
 
 
 

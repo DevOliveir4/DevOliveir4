@@ -56,6 +56,8 @@ body.light {
             }
         }
     }
+
+    
 }
 
 .header-margin {
@@ -63,6 +65,7 @@ body.light {
     max-width: 1024px;  
     width: 100%;
     position: absolute;
+    z-index: 11;
     right: 50%;
     transform: translateX(50%);
 
@@ -175,6 +178,103 @@ body.light {
         }
     }
 }
+
+.header-margin-mob {
+    display: none;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.tema.mobile {
+    display: none;
+}
+
+@media (max-width: 816px) {
+
+    .header-margin {
+        display: none;
+    }
+
+    .logo-mobile {
+        display: block;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+        top: 22px;
+        width: 13%;
+    }
+
+    .tema.mobile {
+        position: fixed;
+        width: 52px;
+        height: 52px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 15px;
+        top: 15px;
+        z-index: 11;
+        border-radius: 50%;
+        background: rgba(24, 24, 29, 0.6);      
+        backdrop-filter: blur(2px);
+
+        & i {
+            font-size: 2rem;
+            color: white;
+        }
+    }
+
+
+    .header-margin-mob {
+        display: block;
+        padding: 0 16px;
+        margin: 0 auto;
+        max-width: 800px;
+        width: 100%;
+        position: fixed;
+        z-index: 11;
+        bottom: 32px;
+        left: 50%;
+        transform: translateX(-50%);
+        
+        & header {
+            width: 100%;
+            border-radius: 12px;
+            border: 1px solid rgba(39, 38, 44, 0.38);
+            background: rgba(24, 24, 29, 0.6);      
+            backdrop-filter: blur(2px);
+
+            & nav {
+                width: 100%;
+                
+
+                & ul {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content:space-between;
+
+                    & li {
+                        padding: 20px 16px;
+                        display: flex;
+                        align-items: center;
+
+                        & i {
+                            font-size: 2rem;
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
 
 
 

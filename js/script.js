@@ -1,30 +1,33 @@
-
 document.addEventListener('DOMContentLoaded', () => {
 
-    const temaBtn = document.querySelector('.tema');
+    const temaBtns = document.querySelectorAll('.tema');
+
     const body = document.body;
     const logo = document.getElementById('logo');
     const logoFooter = document.getElementById('logo-footer');
-    const temaIcone = temaBtn.querySelector('i'); 
-
-  
-    temaBtn.addEventListener('click', () => {
-   
+    
+    const toggleTheme = () => {
         body.classList.toggle('light');
 
         const isLight = body.classList.contains('light');
+
+        temaBtns.forEach(btn => {
+            const temaIcone = btn.querySelector('i');
+            temaIcone.classList.toggle('fa-sun-bright', !isLight);
+            temaIcone.classList.toggle('fa-moon', isLight);
+        });
 
         logo.src = isLight
             ? 'Assets/icon/logo-dark.svg'
             : 'Assets/icon/logo.svg';
 
-     
         logoFooter.src = isLight
             ? 'Assets/icon/logo-footer-dark.svg'
             : 'Assets/icon/logo-footer.svg';
+    };
 
-        temaIcone.classList.toggle('fa-sun-bright', !isLight);
-        temaIcone.classList.toggle('fa-moon', isLight);
+    temaBtns.forEach(btn => {
+        btn.addEventListener('click', toggleTheme);
     });
     
 
@@ -34,14 +37,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const larguraTela = window.innerWidth;
 
         mockupImages.forEach(img => {
-
             if (!img.dataset.srcOriginal) {
                 img.dataset.srcOriginal = img.src;
             }
 
             const srcOriginal = img.dataset.srcOriginal;
-            const srcMobile = srcOriginal.replace('.png', '-inteiro.png');
 
+            const srcMobile = srcOriginal.replace('.png', '-mobile.png');
 
             if (larguraTela < 1128) {
                 img.src = srcMobile;
@@ -51,9 +53,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-
     window.addEventListener('resize', ajustarImagens);
-
     ajustarImagens();
-
 });
