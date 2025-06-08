@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
     temaBtns.forEach(btn => {
         btn.addEventListener('click', toggleTheme);
     });
-    
+
 
     const mockupImages = document.querySelectorAll('.mockup');
 
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const srcOriginal = img.dataset.srcOriginal;
 
-            const srcMobile = srcOriginal.replace('.png', '-mobile.png');
+            const srcMobile = srcOriginal.replace('.png', '-inteiro.png');
 
             if (larguraTela < 1128) {
                 img.src = srcMobile;
