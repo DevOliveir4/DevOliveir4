@@ -12,8 +12,6 @@ html {
     font-family: inter;
     background: url('../Assets/img/Header-Gradient.svg') top center no-repeat,
     url('../Assets/img/Footer-Gradient.svg') bottom center no-repeat, var(--BG-ligth);
-    background-size: 100% auto, 100% auto;
-    background-attachment: scroll;
     color: var(--dark-gray);
 
     & span {
@@ -29,7 +27,6 @@ body {
     background-attachment: scroll;
     color: var(--dark-gray);
 }
-
 
 
 .line {
@@ -65,6 +62,17 @@ span {
     transition: scale 0.4s ease, color 0.3s ease;
 }
 
+@media (max-width: 675px) {
+    body {
+        font-family: inter;
+        background: url('../Assets/img/Header-Gradient.svg') top center no-repeat,
+        url('../Assets/img/Footer-Gradient.svg') bottom center no-repeat, var(--BG-dark);
+        background-size: 450% auto, 450% auto;
+        background-attachment: scroll;
+        color: var(--dark-gray);
+    }
+
+}
 
 @media (max-width: 440px) {
     html {
