@@ -3,18 +3,15 @@
 <h1 align="center">Olá, eu sou o Gabriel Oliveira! 👋</h1>
 
 <p align="center">
-  <em>Estudante de Engenharia de Software | Operações e Suporte de TI | Desenvolvedor</em>
+  <em>Full Stack Developer | Operações e Suporte de TI </em>
 </p>
 
-### 👨‍💻 Sobre mim
+Sou um **Desenvolvedor** com uma trajetória que une a base operacional da infraestrutura de TI com a lógica da Engenharia de Software. 
 
-- 🎓 Cursando o 1º semestre de **Engenharia de Software** na Universidade Católica de Salvador (UCSAL).
-- 💼 Atuo na linha de frente de **Operações de TI e Suporte Corporativo**, o que me garante uma base sólida em infraestrutura, redes (CCNA) e resolução ágil de problemas.
-- 🚀 Aprimorando minhas habilidades em desenvolvimento **Full Stack** (via Rocketseat), unindo minha visão sistêmica operacional com a engenharia de software.
-- 💡 Construo projetos focados em código limpo, performance e design minimalista, como o meu recente web app **Hair Day** (desenvolvido com ES Modules, RESTful API e Webpack) e a operação **Ghub**.
+Por atuar na linha de frente do suporte corporativo e possuir certificação em redes (CCNA), desenvolvi uma visão sistêmica rara: não penso apenas em como a aplicação renderiza no navegador, mas em como ela consome os recursos do servidor e trafega na rede. 
 
+Atualmente cursando Engenharia de Software (UCSAL) e especialização Full Stack, meu foco é construir arquiteturas resilientes no back-end e interfaces minimalistas no front-end. Priorizo o domínio absoluto dos fundamentos (como ES Modules, APIs RESTful e Clean Code) para entregar aplicações escaláveis e de fácil manutenção corporativa.
 
-### 💻 Tecnologias e Ferramentas
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=ts" height="60" alt="typescript logo"  />
@@ -51,9 +48,10 @@
 
 ###
 
+<br clear="both">
+
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=DevOliveir4&locale=en&mode=daily&theme=dracula&hide_border=true&hide_bg=true&order=3" height="150" alt="streak graph"  />
-  <img src="https://github-profile-trophy.vercel.app?username=DevOliveir4&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=true&order=4" height="150" alt="trophy graph"  />
+  <img src="https://streak-stats.demolab.com?user=DevOliveir4&locale=pt-br&mode=daily&theme=cobalt&hide_border=true&border_radius=0&order=3" height="150" alt="streak graph"  />
 </div>
 
 ###
@@ -68,11 +66,11 @@
 
 ###
 
-<h3 align="center">🎵 Ouvindo recentemente no Spotify</h3>
+<br clear="both">
 
 <div align="center">
-  <a href="https://open.spotify.com/user/312vg5ikzrja3vjz7mhagiplbtea" target="_blank">
-    <img src="https://spotify-recently-played-readme.vercel.app/api?user=312vg5ikzrja3vjz7mhagiplbtea&count=5" alt="Spotify recently played"  />
+  <a href="https://open.spotify.com/user/312vg5ikzrja3vjz7mhagiplbtea">
+    <img src="https://spotify-recently-played-readme.vercel.app/api?user=312vg5ikzrja3vjz7mhagiplbtea&count=4&unique=true" alt="Spotify recently played"  />
   </a>
 </div>
 
