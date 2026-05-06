@@ -37,11 +37,10 @@ Atualmente cursando Engenharia de Software (UCSAL) e especialização Full Stack
 
 ###
 
-<a href="https://www.linkedin.com/in/devoliveir4/" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo" /></a>&nbsp;<a href="https://www.instagram.com/olivrz6/" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo" /></a>
+<a href="https://www.linkedin.com/in/devoliveir4/" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="40" height="40" alt="linkedin logo" /></a>
+<a href="https://www.instagram.com/olivrz6/" target="_blank"><img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="40" height="40" alt="instagram logo" /></a>
 
 ###
-
-<br clear="both">
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=DevOliveir4&locale=pt-br&mode=daily&theme=cobalt&hide_border=true&border_radius=0&order=3" height="150" alt="streak graph"  />
@@ -58,8 +57,6 @@ Atualmente cursando Engenharia de Software (UCSAL) e especialização Full Stack
 </div>
 
 ###
-
-<br clear="both">
 
 <div align="center">
   <a href="https://open.spotify.com/user/312vg5ikzrja3vjz7mhagiplbtea">
